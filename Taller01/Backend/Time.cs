@@ -115,7 +115,7 @@ public class Time
     {
         if (hour < 0 || hour > 23)
         { 
-            throw new Exception($"The hour: {hour} is invalid.");
+            throw new Exception($"The hour: {hour}, is not valid.");
         }
         return hour;
     }
@@ -124,7 +124,7 @@ public class Time
     {
         if (minute < 0 || minute > 59)
         {
-            throw new Exception($"The minute: {minute} is invalid.");
+            throw new Exception($"The minute: {minute}, is not valid.");
         }
         return minute;
     }
@@ -133,7 +133,7 @@ public class Time
     {
         if (second < 0 || second > 59)
         {
-            throw new Exception($"The second: {second} is invalid.");
+            throw new Exception($"The second: {second}, is not valid.");
         }
         return second;
     }
@@ -142,7 +142,7 @@ public class Time
     {
         if (millisecound < 0 || millisecound > 999)
         {
-            throw new Exception($"The millisecound: {millisecound} is invalid.");
+            throw new Exception($"The millisecound: {millisecound}, is not valid.");
         }
         return millisecound;
     }
